@@ -1,33 +1,33 @@
-name: Build
+
+name: Build and deploy site
 
 on:
   push:
     branches:
       - main
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
         with:
           persist-credentials: false
 
-      - name: Install node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install and build assets
+      - name: Install and Build 🔧
         run: |
           npm install
           npm run build
           npx prettier --parser html --write ./public/*.html
 
-      - name: Push changes
-        uses: ptienchuan/deploy-github-pages-action@master
+      - name: Deploy on GitHub Pages 🚀
+        uses: crazy-max/ghaction-github-pages@v3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          source-directory: "public"
+          build_dir: public/
