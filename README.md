@@ -1,6 +1,6 @@
-# Monofony official website
+# Loïc Frémont official website
 
-This is a simple repository for the website dedicated to Monofony.
+This is a simple repository for the website dedicated to Loïc Frémont.
 
 ## Why?
 
