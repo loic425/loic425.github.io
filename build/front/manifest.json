@@ -1,0 +1,23 @@
+{
+  "build/front/app.css": "/build/front/app.css",
+  "build/front/app.js": "/build/front/app.js",
+  "build/front/runtime.js": "/build/front/runtime.js",
+  "build/front/images/loic.png": "/build/front/images/loic.png",
+  "build/front/images/who.svg": "/build/front/images/who.svg",
+  "build/front/images/partner/vanoix.png": "/build/front/images/partner/vanoix.png",
+  "build/front/images/partner/akawaka.png": "/build/front/images/partner/akawaka.png",
+  "build/front/images/outils.png": "/build/front/images/outils.png",
+  "build/front/images/oss.png": "/build/front/images/oss.png",
+  "build/front/images/favicon.ico": "/build/front/images/favicon.ico",
+  "build/front/images/php.png": "/build/front/images/php.png",
+  "build/front/images/logo.png": "/build/front/images/logo.png",
+  "build/front/images/sylius.png": "/build/front/images/sylius.png",
+  "build/front/images/symfony.png": "/build/front/images/symfony.png",
+  "build/front/images/oss.svg": "/build/front/images/oss.svg",
+  "build/front/images/monofony.png": "/build/front/images/monofony.png",
+  "build/front/images/outils.svg": "/build/front/images/outils.svg",
+  "build/front/images/contact.svg": "/build/front/images/contact.svg",
+  "build/front/images/burger.svg": "/build/front/images/burger.svg",
+  "build/front/images/monofony.svg": "/build/front/images/monofony.svg",
+  "build/front/images/chevron-up.svg": "/build/front/images/chevron-up.svg"
+}
