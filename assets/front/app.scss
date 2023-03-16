@@ -3,6 +3,10 @@
 @import "~tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
+.container-big {
+  @apply 2xl:container 2xl:mx-auto;
+}
+
 #menu-toggle:checked + #menu {
   display: block;
 }
