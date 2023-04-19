@@ -1,15 +1,21 @@
 <!doctype html>
-<html lang="fr" class="scroll-smooth antialiased">
+<html lang="en" class="scroll-smooth antialiased">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
+    <meta name="author" property="og:title" content="Loïc FRÉMONT">
+    <meta name="description" property="og:description" content="Symfony & Sylius developer, working from France. Interested in quality, open source & mulet.">
+    <meta name="keywords" content="Symfony, Sylius, PHP, Developer, Freelance, France, Lille, Mulet, Quality, Open Source, E-commerce, B2C, B2B">
+    <meta name="image" property="og:image" content="build/front/images/loic.webp">
+    <meta property="og:url" content="https://loic425.github.io/">
+    <meta property="og:type" content="website">
+
     <title>Loïc Website</title>
 
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link href="build/front/app.css" rel="stylesheet">
 
-    <link rel="icon" href="build/front/images/favicon.ico">
+    <link href="build/front/images/favicon.ico" rel="icon">
 
     <script src="build/front/runtime.js" defer></script>
     <script src="build/front/app.js" defer></script>
@@ -19,7 +25,7 @@
 <div class="relative overflow-hidden">
     <div class="bg-navy-blue">
         <nav class="text-white container-big font-poppins pt-8 mx-auto flex justify-between sm:max-w-3xl max-w-md lg:max-w-7xl">
-            <img src="build/front/images/logo.png" alt="logo Loïc FRÉMONT" class="hidden w-24 px-4 lg:flex">
+            <img src="build/front/images/logo.png" alt="logo Loïc FRÉMONT" class="hidden w-24 h-full px-4 lg:flex">
 
             <ul class="hidden px-4 tracking-tight text-xl sm:px-6 lg:px-8 lg:gap-x-5 lg:flex lg:justify-end">
                 <li>
@@ -65,7 +71,7 @@
 
     <div class="absolute right-0 hidden w-2/4 bg-dark-blue border-b-8 border-pink mr-20" id="menu">
         <nav class="container-big">
-            <img src="build/front/images/logo.png" alt="logo Loïc FRÉMONT" class="pt-3 w-32 mx-auto max-w-md px-4 lg:max-w-7xl">
+            <img src="build/front/images/logo.png" alt="logo Loïc FRÉMONT" class="pt-3 w-32 h-full mx-auto max-w-md px-4 lg:max-w-7xl">
 
             <ul class="mx-auto max-w-md px-4 text-navy-blue tracking-tight flex text-right flex-col gap-y-4 py-8 text-xl sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                 <li>
@@ -132,7 +138,7 @@
                             </svg>
                         </div>
                         <div class="relative flex justify-center md:block md:pt-5 md:pl-4 md:-mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-                            <img src="build/front/images/loic.png" alt="portrait loïc" class="w-2/4" onmousedown="return false">
+                            <img src="build/front/images/loic.webp" alt="portrait loïc" class="h-auto w-2/4" onmousedown="return false">
                         </div>
                     </div>
                 </div>
@@ -141,7 +147,7 @@
 
         <section id="who" class="relative bg-gradient-to-b from-navy-blue to-blue py-16 sm:py-24 lg:py-32">
             <div class="mx-auto container-big max-w-md text-center bg-pink rounded-lg px-10 py-32 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-                <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Who is Loïc?</h1>
+                <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-sky-blue sm:text-4xl">Who is Loïc ?</h1>
                 <div class="space-y-5">
                     <p class="mx-auto mt-5 max-w-prose text-xl text-navy-blue">
                         I'm a PHP Software Engineer, Open Source Software enthusiast and part of the Sylius Core Team.
@@ -170,7 +176,7 @@
                                     <div class="flex justify-center">
                                         <img src="build/front/images/php.png" alt="icon php" class="h-32 absolute -top-16" onmousedown="return false">
                                     </div>
-                                    <h3 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">PHP</h3>
+                                    <h2 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">PHP</h2>
                                     <p class="mt-5 text-base text-sky-blue">
                                         I love that language because it has evolved along with me. People love to hates it but this language is long lasting and has very successful frameworks.
                                     </p>
@@ -184,7 +190,7 @@
                                     <div class="flex justify-center">
                                         <img src="build/front/images/symfony.png" alt="icon symfony" class="h-32 absolute -top-16" onmousedown="return false">
                                     </div>
-                                    <h3 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">Symfony</h3>
+                                    <h2 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">Symfony</h2>
                                     <p class="mt-5 text-base text-sky-blue">
                                         I'm using Symfony since 2014 where it was on 2.x area.
                                         This framework is more and more pleasant to use and is renewed every year.
@@ -199,7 +205,7 @@
                                     <div class="flex justify-center">
                                         <img src="build/front/images/sylius.png" alt="icon sylius" class="h-32 absolute -top-16" onmousedown="return false">
                                     </div>
-                                    <h3 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">Sylius</h3>
+                                    <h2 class="mt-28 text-lg font-medium tracking-tight text-navy-blue">Sylius</h2>
                                     <p class="mt-5 text-base text-sky-blue">
                                         I've discovered Sylius in 2014 during my first professional job using Symfony when it was on 0.x area. And now I'm a Core team member.
                                     </p>
@@ -218,11 +224,11 @@
                         <h1 class="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">Open Source Software</h1>
 
                         <div class="flex items-center gap-y-5 flex-col md:gap-y-0 md:gap-x-20 md:items-stretch md:flex-row md:justify-center">
-                            <img src="build/front/images/oss.png" alt="monofony, sylius, jedisjeux color square" class="w-full md:w-2/4 object-contain" onmousedown="return false">
+                            <img src="build/front/images/oss.png" alt="monofony, sylius, jedisjeux color square" class="h-full w-full md:w-2/4 object-contain" onmousedown="return false">
                             <div class="border-b-4 md:border-r-2 border-blue w-full md:w-0"></div>
                             <div class="flex items-center justify-center gap-y-5 flex-col">
                                 <figure class="relative">
-                                    <img src="build/front/images/monofony.svg" alt="monofony color square" class="w-60 object-contain" onmousedown="return false">
+                                    <img src="build/front/images/monofony.svg" alt="monofony color square" class="w-60 h-full object-contain" onmousedown="return false">
                                     <figcaption class="text-navy-blue font-poppins absolute text-3xl text-center inset-0 flex items-center justify-center font-semibold w-full h-full">Monofony</figcaption>
                                 </figure>
 
@@ -287,8 +293,12 @@
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
                     </svg>
                 </a>
-
             </div>
+
+            <div class="mt-8 text-center md:mt-0 md:order-1">
+                <a href="informations-legales.html" class="relative z-10 text-base text-navy-blue hover:text-sky-blue">Legal Informations</a>
+            </div>
+
             <div class="mt-8 md:mt-0 md:order-1">
                 <p class="text-center text-base text-navy-blue">&copy; 2023 Loïc FRÉMONT</p>
             </div>
